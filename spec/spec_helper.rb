@@ -1,3 +1,5 @@
+require_relative './setup_test_database'
+
 ENV['ENVIRONMENT'] = 'test'
 require 'capybara/rspec'
 require 'simplecov'
@@ -28,6 +30,13 @@ SimpleCov.start
 # the additional setup, and require it from the spec files that actually need
 # it.
 #
+
+RSpec.configure do |config|
+  config.before(:each) do
+    setup_test_database
+  end
+end
+
 # See http://rubydoc.info/gems/rspec-core/RSpec/Core/Configuration
 RSpec.configure do |config|
   # rspec-expectations config goes here. You can use an alternate
