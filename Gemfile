@@ -8,6 +8,7 @@ ruby '3.0.1'
 
 gem 'sinatra'
 gem 'sinatra-contrib'
+gem 'pg'
 
 group :test do
   gem 'capybara'
