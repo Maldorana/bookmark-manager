@@ -36,9 +36,10 @@ describe Bookmark do
   describe '.delete' do
     it 'deletes a bookmark' do
       bookmark = Bookmark.create(url: 'http://www.example.org', title: 'Example')
-      persisted_data = persisted_data(id: bookmark.id)
-    
-      expect(bookmark.delete).to be_empty
+      
+      Bookmark.delete(id: bookmark.id)
+      
+      expect(Bookmark.all.length).to eq 0
     end
   end
 end
