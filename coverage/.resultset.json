@@ -37,6 +37,15 @@
           1,
           null,
           null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          null,
           null
         ]
       },
@@ -45,9 +54,9 @@
           1,
           null,
           1,
-          1,
-          1,
-          1,
+          2,
+          2,
+          2,
           null
         ]
       },
@@ -60,6 +69,24 @@
           1,
           1,
           1,
+          null,
+          null
+        ]
+      },
+      "/Users/Maldorana/Desktop/Makers/Course/Week 4/bookmark-manager/spec/features/delete_bookmark_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          0,
           null,
           null
         ]
@@ -85,6 +112,6 @@
         ]
       }
     },
-    "timestamp": 1631785941
+    "timestamp": 1631803383
   }
 }
